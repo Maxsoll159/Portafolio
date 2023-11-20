@@ -58,7 +58,7 @@ export default function Home() {
 
 
         <div className='row-span-5 hidden lg:block fd:row-span-4 col-span-2 lg:row-span-2 lg:col-span-2 bg-black border border-gray-600 rounded-xl text-white'>
-          <Image src="/Gif4.webp" width={20} height={20} alt='XD' className='w-full h-full' />
+          <Image src="/Gif4.webp" width={278} height={288} alt='XD' className='w-full h-full' />
         </div>
 
         <CardFecha />
