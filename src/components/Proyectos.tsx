@@ -22,7 +22,7 @@ export const Proyectos = () => {
   return (
     <div className="rounded-xl bg-[#020617] mt-5 border border-gray-700 p-5 lg:p-10">
       <h5 className="text-white font-bold text-3xl ">Proyectos</h5>
-      <div className="grid grid-cols-1 mt-5 p-5 space-y-5">
+      <div className="grid grid-cols-1 mt-5 p-0 lg:p-5 space-y-5">
 
         {
           ProyectosData.map((proyecto) => (
