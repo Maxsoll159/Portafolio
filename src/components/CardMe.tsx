@@ -11,7 +11,7 @@ export const CardMe = () => {
                 <TypeAnimationCom />
                 <p className='text-white text-lg'>¡Saludos! Soy Martin, un entusiasta desarrollador front-end con una pasión por transformar ideas creativas en experiencias digitales sorprendentes. Mi enfoque va más allá del código; busco crear interfaces que no solo sean funcionales, sino que también cautiven a los usuarios desde el primer momento.</p>
                 <div className='flex justify-between items-end w-full !mt-[10px]'>
-                    <button className='bg-red-500 p-2 rounded-md font-bold flex items-center gap-2'>Descargar CV <PiDownloadSimpleBold size={25} /></button>
+                    <a href='/CV/CV_Martin_Rios_Tineo.pdf' download="CV_MartinRiosTineo" target='_blank' className='bg-red-500 p-2 rounded-md font-bold flex items-center gap-2'>Descargar CV <PiDownloadSimpleBold size={25} /></a>
 
                     <div className='flex gap-3 items-center'>
                         <a href="https://linkedin.com/in/martin-rios-tineo" target='_blank'>
