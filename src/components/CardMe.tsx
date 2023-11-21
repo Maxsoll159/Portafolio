@@ -25,7 +25,7 @@ export const CardMe = () => {
                 </div>
             </div>
 
-            <Image src="/fotoMartin.jpg" width={400} height={438} alt='Martin Rios Tineo' className='rounded-lg w-[250px] mx-auto' />
+            <Image src="/fotoMartin.jpg" width={438} height={438} alt='Martin Rios Tineo' className='rounded-lg w-[250px] mx-auto' />
         </div>
     )
 }
