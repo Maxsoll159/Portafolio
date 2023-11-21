@@ -47,6 +47,12 @@ export const Tecnologias = () => {
                     <Image src="/firebase-icon.svg" width={45} height={45} alt='Firebase' className='mx-auto' />
                     <p className='text-center'>Firebase</p>
                 </div>
+
+
+                <div className='mt-5'>
+                    <FaReact size={45} className="mx-auto text-[#61dafb]" />
+                    <p className='text-center'>React Native</p>
+                </div>
             </div>
         </div>
     )

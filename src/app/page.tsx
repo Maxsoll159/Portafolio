@@ -3,6 +3,9 @@ import { Proyectos } from '@/components/Proyectos'
 
 import Image from 'next/image'
 
+
+
+
 export default function Home() {
   return (
     <main className="container mx-auto p-5 lg:py-20 lg:p-5">
@@ -33,7 +36,7 @@ export default function Home() {
 
 
         <div className='row-span-4 hidden lg:block  col-span-2 lg:row-span-2 lg:col-span-3 bg-black border border-gray-600 rounded-xl text-white'>
-          <Image src="/Gif3.webp" width={278} height={288} alt='XD' className='w-full h-full' />
+          <Image src="/Gif3.webp" width={278} height={288} alt='XD' className='w-full h-full rounded-lg' />
         </div>
 
   

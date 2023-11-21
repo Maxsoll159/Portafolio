@@ -14,7 +14,7 @@ export const CardMe = () => {
                     <button className='bg-red-500 p-2 rounded-md font-bold flex items-center gap-2'>Descargar CV <PiDownloadSimpleBold size={25} /></button>
 
                     <div className='flex gap-3 items-center'>
-                        <a href="www.linkedin.com/in/martin-rios-tineo" target='_blank'>
+                        <a href="https://linkedin.com/in/martin-rios-tineo" target='_blank'>
                             <FaLinkedin size={35} className="hover:text-[#0a66c2] transition-all hover:scale-125" />
                         </a>
 

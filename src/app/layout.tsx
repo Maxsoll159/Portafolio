@@ -6,7 +6,14 @@ const inter = Montserrat({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Martin Rios Tineo',
-  description: 'Portafolio de proyecto de Martin Rios Tineo',
+  description: 'Bienvenido a mi portafolio, donde muestro mis habilidades y proyectos en desarrollo web y diseño.',
+  keywords: "desarrollo web, diseño, portafolio, proyectos, React, programador Front-End, Front-End, programador, Martin Rios Tineo, Martin Jesus Rios Tineo",
+  authors: [{name: "Martin Rios Tineo", url: "https://martin-rios-tineo.vercel.app"}],
+  openGraph:{
+    url: "https://martin-rios-tineo.vercel.app",
+    title: "Martin Rios Tineo",
+    description: "Bienvenido a mi portafolio, donde muestro mis habilidades y proyectos en desarrollo web y diseño.",
+  }
 }
 
 export default function RootLayout({
