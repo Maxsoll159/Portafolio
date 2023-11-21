@@ -9,3 +9,6 @@ export { Tecnologias } from './Tecnologias'
 export { CardHora } from './CardHora'
 
 export { CardFecha } from './CardFecha'
+
+
+export {CardExperiencia} from './CardExperiencia'

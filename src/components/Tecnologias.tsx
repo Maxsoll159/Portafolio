@@ -5,9 +5,9 @@ import { BsBootstrapFill } from "react-icons/bs";
 
 export const Tecnologias = () => {
     return (
-        <div className='row-span-5 fd:row-span-4 col-span-2 lg:row-span-2 lg:col-span-4 bg-[#020617] p-10 rounded-xl border border-gray-600'>
+        <div className='row-span-5 fd:row-span-4 col-span-2 lg:row-span-2 lg:col-span-3 bg-[#020617] p-10 rounded-xl border border-gray-600'>
             <h3 className='font-bold text-3xl text-[#007bff]'>Tecnologías</h3>
-            <div className='text-white grid grid-cols-2 lg:grid-cols-7 gap-5'>
+            <div className='text-white grid grid-cols-2 lg:grid-cols-5 gap-5'>
                 <div className='mt-5'>
                     <FaReact size={45} className="mx-auto text-[#61dafb]" />
                     <p className='text-center'>React</p>

@@ -19,7 +19,7 @@ export const CardHora = () => {
     };
     return (
 
-        <div className='col-span-2 lg:row-span-1 lg:col-span-2 bg-[#020617] rounded-lg border border-gray-600 text-white p-10 font-bold text-3xl flex items-center justify-center flex-col'>
+        <div className='col-span-2 lg:row-span-1 lg:col-span-1 bg-[#020617] rounded-lg border border-gray-600 text-white p-5 font-bold text-xl flex items-center justify-center flex-col'>
             <p id="hora-actual">{formatoHora(hora)}</p>
         </div>
     )
