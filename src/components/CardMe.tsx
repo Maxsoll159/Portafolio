@@ -9,9 +9,19 @@ export const CardMe = () => {
             <div className='space-y-2 block p-7 lg:p-10 lg:pr-20'>
                 <h1 className='font-bold text-3xl'>Martin Rios Tineo</h1>
                 <TypeAnimationCom />
-                <p className='text-white text-lg'>¡Saludos! Soy Martin, un entusiasta desarrollador front-end con una pasión por transformar ideas creativas en experiencias digitales sorprendentes. Mi enfoque va más allá del código; busco crear interfaces que no solo sean funcionales, sino que también cautiven a los usuarios desde el primer momento.</p>
+                <p className='text-white text-lg text-justify'>Desarrollador Frontend con más de 3 años de
+                    experiencia en la creación de aplicaciones web
+                    dinámicas y escalables. Especializado en React,
+                    Next.js, TypeScript, JavaScript, Tailwind CSS y
+                    GitHub. Apasionado por la innovación y el
+                    aprendizaje continuo, disfruto trabajar en equipo
+                    y compartir conocimientos. Con habilidades de
+                    liderazgo, he dirigido proyectos con éxito,
+                    asegurando calidad, eficiencia y crecimiento para
+                    los equipos y empresas con las que colaboro.
+                </p>
                 <div className='flex justify-between items-end w-full !mt-[10px]'>
-                    <a href='/CV/CV_Martin_Rios_Tineo.pdf' download="CV_MartinRiosTineo" target='_blank' className='bg-red-500 p-2 rounded-md font-bold flex items-center gap-2'>Descargar CV <PiDownloadSimpleBold size={25} /></a>
+                    <a href='/CV/CV_MartinRiosTineo.pdf' download="CV_MartinRiosTineo" target='_blank' className='bg-red-500 p-2 rounded-md font-bold flex items-center gap-2'>Descargar CV <PiDownloadSimpleBold size={25} /></a>
 
                     <div className='flex gap-3 items-center'>
                         <a href="https://linkedin.com/in/martin-rios-tineo" target='_blank'>

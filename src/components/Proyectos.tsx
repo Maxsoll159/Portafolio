@@ -2,10 +2,9 @@ import { ProyectosData } from "@/utils/Proyectos"
 import Image from "next/image"
 import { BsBootstrapFill } from "react-icons/bs"
 import { FaCss3Alt, FaHtml5, FaLink, FaReact } from "react-icons/fa"
-import { SiTailwindcss } from "react-icons/si"
+import { SiAxios, SiTailwindcss } from "react-icons/si"
 import { GiPadlock } from 'react-icons/gi'
 import { ModalComponent } from "./ModalComponent"
-
 export const Proyectos = () => {
 
   const icons: any = {
@@ -16,7 +15,8 @@ export const Proyectos = () => {
     'tailwind': <SiTailwindcss size={20} className="mx-auto text-[#38b2ac]" />,
     'html': <FaHtml5 size={20} className="mx-auto text-[#e44d26]" />,
     'bootstrap': <BsBootstrapFill size={20} className="mx-auto text-[#7952b3]" />,
-    'css': <FaCss3Alt size={20} className="mx-auto text-blue-500" />
+    'css': <FaCss3Alt size={20} className="mx-auto text-blue-500" />,
+    'axios' : <SiAxios size={20} className="mx-auto text-[#383747]" />,
   }
 
   return (

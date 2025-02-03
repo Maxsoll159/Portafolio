@@ -3,7 +3,7 @@ import { ExpeData } from "@/utils/ExpeData"
 
 export const CardExperiencia = () => {
     return (
-        <div className='row-span-5 border border-gray-600 fd:row-span-4 col-span-2 lg:row-span-5 lg:col-span-5 bg-[#020617] rounded-xl p-10 gap-3 text-white'>
+        <div className='row-span-5 border border-gray-600 fd:row-span-4 col-span-2 lg:row-span-5 lg:col-span-5 bg-[#020617] rounded-xl p-7 gap-3 text-white'>
             <h3 className='text-[#007bff] font-bold text-3xl'>Experiencia</h3>
             <div className="flex-1 overflow-y-auto">
                 {ExpeData.map((expe) => (

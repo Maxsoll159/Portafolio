@@ -20,13 +20,13 @@ export const ModalComponent = () => {
     return (
         <>
             <div >
-                <button
+                {/**<button
                     type="button"
                     onClick={openModal}
                     className="flex items-center gap-3 text-white font-bold text-lg"
                 >
                     <FaEye size={25} /> <p>Ver Mas</p>
-                </button>
+                </button> */}
             </div>
 
             <Transition appear show={isOpen} as={Fragment}>
